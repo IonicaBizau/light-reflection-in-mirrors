@@ -1,0 +1,81 @@
+/* app specific */
+.mirror {
+    width: 734px;
+    height: 76px;
+    position: absolute;
+    top: 475px;
+    left: 324px;
+    z-index: 999;
+}
+
+.mirror-overlay {
+    width: 384px;
+    height: 32px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 522px;
+    left: 510px;
+}
+
+.line {
+    width: 572px;
+    height: 4px;
+    position: absolute;
+    background: black;
+    left: 370px;
+}
+
+/* 1 */
+.l1 {
+    top: 482px;
+    -webkit-transform: rotateZ(27deg);
+    width: 222px;
+    left: 329px;
+    background: red;
+}
+
+.l2 {
+    top: 439px;
+    -webkit-transform: rotateZ(27deg);
+    width: 240px;
+    left: 435px;
+    background: yellow;
+}
+
+.l3 {
+    top: 432px;
+    -webkit-transform: rotateZ(27deg);
+    width: 290px;
+    left: 573px;
+    background: blue;
+}
+
+
+/* 2 */
+.l21 {
+    top: 447px;
+    -webkit-transform: rotateZ(-40deg);
+    width: 272px;
+    left: 506px;
+    background: red;
+}
+
+.l22 {
+    top: 397px;
+    -webkit-transform: rotateZ(-54deg);
+    width: 240px;
+    left: 610px;
+    background: yellow;
+}
+
+.l23 {
+    top: 418px;
+    -webkit-transform: rotateZ(41deg);
+    width: 240px;
+    left: 635px;
+    background: blue;
+}
+
+.line {
+    display: none;
+}

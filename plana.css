@@ -1,0 +1,53 @@
+/* app specific */
+.mirror {
+    width: 311px;
+    height: 3px;
+    position: absolute;
+    top: 541px;
+    left: 550px;
+    background: black;
+}
+
+.line {
+    width: 572px;
+    height: 2px;
+    position: absolute;
+    background: black;
+    left: 370px;
+}
+
+/* 1 */
+.l1 {
+    top: 456px;
+    -webkit-transform: rotateZ(45deg);
+    width: 240px;
+    left: 450px;
+}
+
+.l2 {
+    top: 456px;
+    -webkit-transform: rotateZ(45deg);
+    width: 240px;
+    left: 550px;
+}
+
+
+/* 2 */
+.l21 {
+    top: 457px;
+    -webkit-transform: rotateZ(-45deg);
+    width: 240px;
+    left: 620px;
+}
+
+.l22 {
+    top: 457px;
+    -webkit-transform: rotateZ(-45deg);
+    width: 240px;
+    left: 720px;
+}
+
+
+.line {
+    display: none;
+}

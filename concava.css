@@ -1,0 +1,35 @@
+@import url("bootstrap/css/bootstrap.css");
+
+a { color: white; }
+.sub-logo { color: white; }
+
+@font-face {
+    font-family: "Kaushan Script";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/font.woff) format('woff');
+}
+
+.logo {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin: 15px;
+    font-size: 48px;
+    line-height: 47px;
+}
+
+body { background: url("img/bg.png"); }
+
+.bg {
+    background: white;
+    position: absolute;
+    width: 720px;
+    height: 340px;
+    margin-left: 332px;
+    margin-top: 25px;
+    box-shadow: 0 0 19px black;
+    border-radius: 2px;
+}
+
+.bordered { border: 3px solid rgb(0, 59, 122); }

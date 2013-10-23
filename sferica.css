@@ -1,0 +1,52 @@
+/* app specific */
+.mirror {
+    width: 231px;
+    height: 300px;
+    border-radius: 100%;
+    border: 3px solid black;
+    position: absolute;
+    top: 231px;
+    left: 770px;
+}
+
+.mirror-overlay {
+    width: 174px;
+    height: 310px;
+    background: white;
+    position: absolute;
+    top: 229px;
+    left: 750px;
+}
+
+.line {
+    width: 572px;
+    height: 2px;
+    position: absolute;
+    background: black;
+    left: 370px;
+}
+
+/* 1 */
+.l1 { top: 250px; }
+.l2 {
+    top: 380px;
+    width: 633px;
+}
+.l3 { top: 516px; }
+
+
+/* 2 */
+.l21 {
+    top: 328px; -webkit-transform: rotateZ(-50deg);
+    width: 210px;
+    left: 770px;
+}
+.l23 {
+    top: 432px; -webkit-transform: rotateZ(50deg);
+    width: 220px;
+    left: 763px;
+}
+
+.line {
+    display: none;
+}

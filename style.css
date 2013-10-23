@@ -1,0 +1,88 @@
+@import url("bootstrap/css/bootstrap.css");
+
+html, body { height: 100%; }
+html, body, #container { background: url("img/bg.png"); }
+
+
+a { color: white; }
+.sub-logo { color: white; }
+
+@font-face {
+    font-family: "Kaushan Script";
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kaushan Script'), local('KaushanScript-Regular'), url(fonts/font.woff) format('woff');
+}
+
+.logo {
+    font-family: "Kaushan Script", cursive;
+    color: white;
+    text-shadow: 0 0 15px black;
+    margin: 15px;
+    font-size: 48px;
+    line-height: 47px;
+}
+
+
+.bg {
+    background: white;
+    position: absolute;
+    width: 720px;
+    height: 340px;
+    margin-left: 332px;
+    margin-top: 25px;
+    box-shadow: 0 0 19px black;
+    border-radius: 2px;
+}
+
+.bordered { border: 3px solid rgb(0, 59, 122); }
+
+.squares {
+    width: 800px;
+    background: rgba(158, 251, 255, 0.28);
+    height: 407px;
+    padding: 11px;
+    box-shadow: 0 19px 50px rgba(0, 24, 68, 0.37);
+}
+
+.square {
+    width: 236px;
+    margin: 2px;
+    background: yellow;
+    float: left;
+    padding: 80px;
+    font-size: 23px;
+    font-family: "Helvetica";
+    font-weight: bold;
+    height: 40px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition:    all 300ms linear;
+    -o-transition:      all 300ms linear;
+    -ms-transition:     all 300ms linear;
+    transition:         all 300ms linear;
+    text-decoration: none;
+}
+
+.square:hover {
+    text-decoration: none;
+}
+
+.square.blue {
+    background: rgb(0, 53, 148);
+    color: white;
+}
+
+.square.blue:hover {
+    background: lightblue;
+    color: black;
+}
+
+.square.purple {
+    background: rgb(155, 0, 155);
+    color: white;
+}
+
+.square.purple:hover {
+    background: rgb(245, 37, 245);
+    color: black;
+}
