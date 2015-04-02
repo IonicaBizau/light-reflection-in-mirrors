@@ -1,0 +1,68 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/caiuss/1.0.2/caiuss.min.css");
+
+html, body { background: url("../img/bg.png"); }
+
+
+a { color: white; }
+.sub-logo { color: white; }
+
+.logo {
+    margin: 40px 0;
+    font-size: 48px;
+    line-height: 47px;
+}
+
+
+.bordered { border: 3px solid rgb(0, 59, 122); }
+
+
+.squares {
+    background: #c0392b;
+}
+.footer a:hover {
+    color: rgb(44, 62, 80);
+}
+.squares {
+    width: 800px;
+    height: 440px;
+    padding: 11px;
+    box-shadow: 0 5px 10px rgba(0, 24, 68, 0.2);
+    border-radius: 2px;
+}
+
+.square {
+    width: 220px;
+    margin: 10px;
+    background: #e67e22;
+    color: #fff !important;
+    float: left;
+    padding: 80px;
+    font-size: 27px;
+    font-weight: lighter !important;
+    height: 41px;
+    text-decoration: none;
+    border-radius: 2px;
+}
+
+.square:hover {
+    background: #d35400;
+    text-decoration: none;
+}
+
+.square.blue {
+    color: white;
+}
+
+.square.blue:hover {
+    background: lightblue;
+    color: black;
+}
+
+.square.purple {
+    color: white;
+}
+
+.square.purple:hover {
+    background: rgb(245, 37, 245);
+    color: black;
+}
