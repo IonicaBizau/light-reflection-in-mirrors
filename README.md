@@ -2,7 +2,7 @@ Light Reflection in Mirrors
 ===========================
 Simulate the light reflection in different types of mirrors.
 
-[![](http://i.imgur.com/RllpPs8.png)](http://physicsprojects.github.io/light-reflection-in-mirrors/)
+[![](http://i.imgur.com/0cUzMUh.png)](http://physicsprojects.github.io/light-reflection-in-mirrors/)
 
 ## How to contribute
 
