@@ -22,7 +22,7 @@ $("document").ready(function() {
         });
 
         $(".btn-back").on("click", function() {
-            location = "/";
+            location = "/light-reflection-in-mirrors/";
         });
 
         $(".btn-reset").on("click", function() {
