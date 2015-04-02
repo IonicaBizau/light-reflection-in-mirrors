@@ -1,6 +1,6 @@
 {
   "name": "light-reflection-in-mirrors",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simulate the light reflection in different types of mirrors.",
   "main": "js/main.js",
   "scripts": {
