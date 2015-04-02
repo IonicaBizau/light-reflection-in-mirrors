@@ -1,10 +1,20 @@
 /* app specific */
+.main {
+    background: #FFFFFF;
+    width: 680px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -340px;
+    top: 231px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.14);
+}
 .mirror {
-    width: 734px;
+    width: 684px;
     height: 76px;
     position: absolute;
-    top: 475px;
-    left: 324px;
+    top: 275px;
+    left: -5px;
     z-index: 999;
 }
 
@@ -21,59 +31,52 @@
     width: 572px;
     height: 4px;
     position: absolute;
-    background: black;
     left: 370px;
 }
 
 /* 1 */
 .l1 {
-    top: 482px;
-    -webkit-transform: rotateZ(27deg);
-    width: 222px;
-    left: 329px;
-    background: red;
+    top: 272px;
+    -webkit-transform: rotateZ(33deg);
+    width: 221px;
+    left: -11px;
 }
 
 .l2 {
-    top: 439px;
+    top: 239px;
     -webkit-transform: rotateZ(27deg);
     width: 240px;
-    left: 435px;
-    background: yellow;
+    left: 75px;
 }
 
 .l3 {
-    top: 432px;
+    top: 229px;
     -webkit-transform: rotateZ(27deg);
     width: 290px;
-    left: 573px;
-    background: blue;
+    left: 209px;
 }
 
 
 /* 2 */
 .l21 {
-    top: 447px;
-    -webkit-transform: rotateZ(-40deg);
+    top: 237px;
+    -webkit-transform: rotateZ(-43deg);
     width: 272px;
-    left: 506px;
-    background: red;
+    left: 153px;
 }
 
 .l22 {
-    top: 397px;
+    top: 199px;
     -webkit-transform: rotateZ(-54deg);
     width: 240px;
-    left: 610px;
-    background: yellow;
+    left: 251px;
 }
 
 .l23 {
-    top: 418px;
+    top: 216px;
     -webkit-transform: rotateZ(41deg);
     width: 240px;
-    left: 635px;
-    background: blue;
+    left: 275px;
 }
 
 .line {
