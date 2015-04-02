@@ -1,0 +1,63 @@
+/* app specific */
+.mirror {
+    width: 231px;
+    height: 300px;
+    border-radius: 100%;
+    border: 3px solid #2c3e50;
+    position: absolute;
+    top: 21px;
+    left: 428px;
+}
+
+.mirror-overlay {
+    width: 174px;
+    height: 310px;
+    background: white;
+    position: absolute;
+    top: 18px;
+    left: 400px;
+}
+
+.line {
+    width: 572px;
+    height: 2px;
+    position: absolute;
+    background: #2c3e50;
+    left: 30px;
+}
+
+/* 1 */
+.l1 { top: 40px; }
+.l2 {
+    top: 172px;
+    width: 633px;
+}
+.l3 { top: 306px; }
+
+
+/* 2 */
+.l21 {
+    top: 119px; -webkit-transform: rotateZ(-50deg);
+    width: 210px;
+    left: 430px;
+}
+.l23 {
+    top: 224px; -webkit-transform: rotateZ(50deg);
+    width: 216px;
+    left: 426px;
+}
+
+.line {
+    display: none;
+}
+
+.main {
+    background: #FFFFFF;
+    width: 680px;
+    height: 350px;
+    position: absolute;
+    left: 50%;
+    margin-left: -340px;
+    top: 231px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.14);
+}
