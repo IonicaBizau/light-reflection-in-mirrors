@@ -3,48 +3,48 @@
     width: 311px;
     height: 3px;
     position: absolute;
-    top: 541px;
-    left: 550px;
-    background: black;
+    top: 321px;
+    left: 177px;
+    background: #2c3e50;
 }
 
 .line {
     width: 572px;
     height: 2px;
     position: absolute;
-    background: black;
+    background: #2c3e50;
     left: 370px;
 }
 
 /* 1 */
 .l1 {
-    top: 456px;
+    top: 236px;
     -webkit-transform: rotateZ(45deg);
     width: 240px;
-    left: 450px;
+    left: 80px;
 }
 
 .l2 {
-    top: 456px;
+    top: 236px;
     -webkit-transform: rotateZ(45deg);
     width: 240px;
-    left: 550px;
+    left: 200px;
 }
 
 
 /* 2 */
 .l21 {
-    top: 457px;
+    top: 237px;
     -webkit-transform: rotateZ(-45deg);
     width: 240px;
-    left: 620px;
+    left: 247px;
 }
 
 .l22 {
-    top: 457px;
+    top: 237px;
     -webkit-transform: rotateZ(-45deg);
     width: 240px;
-    left: 720px;
+    left: 368px;
 }
 
 

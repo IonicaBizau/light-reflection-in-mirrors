@@ -50,14 +50,3 @@
 .line {
     display: none;
 }
-
-.main {
-    background: #FFFFFF;
-    width: 680px;
-    height: 350px;
-    position: absolute;
-    left: 50%;
-    margin-left: -340px;
-    top: 231px;
-    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.14);
-}
